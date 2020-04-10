@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Enoshima</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+  <script src="slideshow.js"></script>
+  <!-- スライドショー用 -->
+  <!-- <link href="slideshow.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet' type='text/css'>
+  <script src="slideshow.js"></script> -->
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- メニューバーを表示 -->
+            <div class="header-menu">
+                <ul class="topnav">
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Info</a></li>
+                    <li><a href="#">Access</a></li>
+                    <li class="right"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <!-- ヘッダーのロゴを表示 -->
+            <div class="header-logo">
+                <img src="images/enoshima.jpg">
+            </div>
+        </header>
+
+        <div class="main-contents">
+            <!-- スライドショー -->
+            <marquee>緊急事態宣言発令中!!!</marquee>
+            <h1>Infomation</h1>
+            <ul class="news">
+                <li>
+                    <div class="news-image">
+                        <img src="images/news/20200403.jpg">
+                    </div>
+                    <div class="news-days">
+                        <p>2020年04月03日</p>
+                    </div>
+                    <div class="news-label">
+                        <span>お知らせ</span>
+                    </div>
+                    <div class="news-explanation">
+                        <p>江の島岩屋閉洞のお知らせ</p>
+                        <p>江の島岩屋は2020年4月4日（土）から当面の間、閉洞いたします。</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="news-image">
+                        <img src="images/news/20200330.jpeg">
+                    </div>
+                    <div class="news-days">
+                        <p>2020年03月30日</p>
+                    </div>
+                    <div class="news-label">
+                        <span>お知らせ</span>
+                    </div>
+                    <div class="news-explanation">
+                        <p>新江ノ島水族館休館延長のお知らせ</p>
+                        <p>新江ノ島水族館は当面の間、休館いたします。</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="news-image">
+                        <img src="images/news/20200213.jpg">
+                    </div>
+                    <div class="news-days">
+                        <p>2020年02月13日</p>
+                    </div>
+                    <div class="news-label">
+                        <span>お知らせ</span>
+                    </div>
+                    <div class="news-explanation">
+                        <p>2020湘南江の島海の女王＆海の王子コンテスト出場者募集！</p>
+                        <p>【応募締切3月25日（水）17時必着】2020湘南江の島海の女王＆海の王子コンテスト出場者を募集しています。</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="sub-contents">
+            <p id="slideshow">
+                <img src="images/news/20200403.jpg" alt="画像1" class="active">
+                <img src="images/news/20200330.jpeg" alt="画像2">
+                <img src="images/news/20200213.jpg" alt="画像3">
+                <!-- <img src="photo4.jpg" alt="画像4">
+                <img src="photo5.jpg" alt="画像5"> -->
+             </p>
+        </div>
+
+        <footer>
+            <p>ここはフッターです。</p>
+            <p>本来はリンクやお知らせ等を表示します。</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,173 @@
+body {
+    margin: auto 200px;
+    background-color: #B3DEF1;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    margin: 0;
+    padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+    color: #494949;/*文字色*/
+    background: #f4f4f4;/*背景色*/
+    border-left: solid 5px #7db4e6;/*左線*/
+    border-bottom: solid 3px #d7d7d7;/*下線*/
+}
+
+.container {
+    background-color: white;
+}
+
+header {
+	margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+.header-logo {
+    margin: 0;
+    padding: 0;
+}
+
+.header-logo img {
+    width: 100%;
+}
+
+ul.topnav {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background-color: #1b2538;
+}
+ul.topnav li {
+    float: left;
+    width: 100px;
+}
+ul.topnav li a {
+	display: block;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+ul.topnav li a:hover:not(.active) {
+	background-color: #a9bce2;
+}
+ul.topnav li a.active {
+	background-color: #da3c41;
+}
+ul.topnav li.right {
+	float: right;
+}
+@media screen and (max-width: 480px) {
+	ul.topnav li.right, ul.topnav li {
+		float: none;
+	}
+}
+
+.main-contents {
+	margin: 0;
+    padding: 0;
+}
+
+.main-contents img {
+    width: 100%;
+}
+
+.main-contents marquee {
+    color: red;
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+}
+
+.news {
+    margin: 15px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.news ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    list-style-position: outside;
+}
+
+.news li {
+    list-style: none;
+    /* margin-bottom: 75px; */
+    margin: 0 0 75px 0;
+    width: 100%;
+}
+
+.news-explanation p {
+    width: 100%;
+}
+
+.news-image {
+    float: left;
+    width: 25%;
+    margin-right: 10px;
+}
+
+.news-image img {
+    height: 1%;
+}
+
+.news-label {
+    margin: 0;
+    padding: 0;
+}
+
+.news-days p {
+    margin-bottom: 5px;
+}
+
+.news-label span {
+    color: #fff;
+    background: #3c70b4;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px !important;
+    font-size: 0.9em !important;
+    margin-bottom: 5px;
+}
+
+.sub-contents {
+    height: 500px;
+}
+
+#slideshow {
+    position: relative;
+    width:  300px; /* 画像の横幅に合わせて記述 */
+    height: 200px; /* 画像の高さに合わせて記述 */
+ }
+ #slideshow img {
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: 8;
+    opacity: 0.0;
+    /* width: 300px;
+    height: 200px; */
+    width: 1000px;
+    height: 500px;
+    margin-left: 15px;
+ }
+ #slideshow img.active {
+    z-index: 10;
+    opacity: 1.0;
+ }
+ #slideshow img.last-active {
+    z-index: 9;
+ }
+
+footer {
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
